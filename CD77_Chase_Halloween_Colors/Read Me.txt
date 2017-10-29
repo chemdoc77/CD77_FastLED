@@ -1,0 +1,26 @@
+Read Me – CD77_Chase_Halloween_Colors by Chemdoc77
+
+This code is based on code by Zaphod Beeblewurdle in:
+
+https://plus.google.com/107029944060954069417/posts/6r7QakiLLvm
+
+and is based on code by Jason Coon’s Color Pulse in:
+
+https://plus.google.com/+JasonCoon1/posts/gpN7pEqRQUe
+
+and is based on code by  W. Earl:
+
+https://learn.adafruit.com/random-spooky-led-eyes/assembly?view=all
+
+
+This sketch was run with on a Teensy 3.1 with a level shifter on a custom 16 inch WS2811 50 pixel ring.  It was compiled using the Arduino IDE 1.8.3 and the Teensyduino 1.37 along with the latest version of FastLED.  It also runs well on a Teensy 3.6 with a level shifter, on a Adafruit Metro Mini or on a Wemos D1 Mini Pro with a level shifter.
+
+It is powered by a 5 volt power supply with a 4700 mfd 35 volt despiking capacitor.
+
+There is the two resistor protection circuit (see https://forums.adafruit.com/viewtopic.php?f=47&t=50434&p=254414&hilit=ws2812.jpg#p254414 and look for ws2812.jpeg) between the CPU data pin and the ring’s data input.
+
+It works well on a long NeoPixel strip, too.
+
+ENJOY!
+
+Chemdoc77
