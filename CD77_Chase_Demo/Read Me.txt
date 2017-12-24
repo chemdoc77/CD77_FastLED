@@ -1,0 +1,23 @@
+Read Me – Chase Demo by Chemdoc77
+
+The following code contains chase animation both for symmetrical and unsymmetrical chase animations.  The user can chose a single color, a color from an array of colors or a series of colors from a palette for the color of the pixels in the color chase bar.  The user can chose the number of pixels in the color chase bar.
+
+Look at the READ_ME.h tab in the code for further explanation of this sketch.
+
+This code is inspired and partially based on code by Zaphod Beeblewurdle in:
+
+https://plus.google.com/107029944060954069417/posts/6r7QakiLLvm
+
+and based on code by Jason Coon’s Color Pulse in:
+
+https://plus.google.com/+JasonCoon1/posts/gpN7pEqRQUe
+
+This sketch was run with a Wemos D1 Mini Pro MCU on a NeoPixel Strip.  It was compiled using the Arduino 1.8.3 IDE along with the latest version of FastLED.  It also runs well on a Teensy 3.1, 3.2 or 3.6 with a level shifter, or on an Adafruit Metro Mini.
+
+It is powered by a 5 volt power supply with a 4700 mfd 35 volt despiking capacitor.
+
+There is the two resistor protection circuit (see https://forums.adafruit.com/viewtopic.php?f=47&t=50434&p=254414&hilit=ws2812.jpg#p254414 and look for ws2812.jpeg) between the CPU data pin and the strip’s data input.
+
+ENJOY!
+
+Chemdoc77

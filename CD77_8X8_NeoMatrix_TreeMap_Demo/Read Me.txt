@@ -1,0 +1,23 @@
+Read Me – Tree Mapping of a NeoPixel NeoMatrix 8X8
+
+The following code was based on Jason Coon’s awesome tree mapping method and code found at:
+
+www.evilgeniuslabs.org/tree-v2.html
+
+It was assumed that each square of the matrix was equivalent to each level of Jason’s tree.  The outer square was assigned zero level and each inward square was the next level by adding 1 to the previous level.  With the lower left corner pixel of each square of the matrix as pixel zero and zero degrees angle, each pixel was assigned an angle determine by 
+
+Angle = pixel number in the array*(360/number of pixels in the array)
+
+The radii distance was assumed to be 10 for the inner square pixels and each square moving outward was assigned 10 plus the previous ring’s radii distance.
+
+These values were used to fill the data for Jason’s Google spreadsheet to calculate the tree mapping arrays needed.
+
+This sketch was run with a Metro Mini MCU on a NeoPixel NeoMatrix 8X8.  It was compiled using the Arduino 1.8.1 IDE along with the latest version of FastLED.  It also runs well on a Teensy 3.1 with a level shifter, on a DFRobot Beetle or on a Wemos D1 Mini Pro.
+
+It is powered by a 5 volt power supply with a 4700 mfd 35 volt despiking capacitor.
+
+There is the two resistor protection circuit (see https://forums.adafruit.com/viewtopic.php?f=47&t=50434&p=254414&hilit=ws2812.jpg#p254414 and look for ws2812.jpeg) between the CPU data pin and the matrix’s data input.
+
+ENJOY!
+
+Chemdoc77
