@@ -1,0 +1,35 @@
+Read Me – Halloween Fun 2018 by Chemdoc77
+
+New and Improved!
+
+This code is based on code by Zaphod Beeblewurdle in:
+
+https://plus.google.com/107029944060954069417/posts/6r7QakiLLvm
+
+
+and is based on code by Jason Coon’s Color Pulse in:
+
+https://plus.google.com/+JasonCoon1/posts/gpN7pEqRQUe
+
+
+and is based in part on Stuart Taylor's sketch, Breath.ino, at:
+
+https://gist.github.com/hsiboy/4eae11073e9d5b21eae3
+
+
+and is based in part on a slight modification of Mark Kriegsman's Fire2012WithPalette at:
+
+https://github.com/FastLED/FastLED/blob/master/examples/Fire2012WithPalette/Fire2012WithPalette.ino
+
+
+This sketch was run with on either a Arduino Nano, a Teensy 3.1 with a level shifter or a Lolin D32 with a level shifter .  It was compiled using the Arduino IDE 1.8.7 and the Teensyduino 1.44 (for the Teensy 3.1) along with the latest version of FastLED.  
+
+It is powered by a 5 volt power supply with a 4700 mfd 35 volt despiking capacitor.
+
+There is the two resistor protection circuit (see https://forums.adafruit.com/viewtopic.php?f=47&t=50434&p=254414&hilit=ws2812.jpg#p254414 and look for ws2812.jpeg) between the CPU data pin and the ring’s data input.
+
+It was designed to run on a NeoPixel, i.e WS2812B, strip.
+
+ENJOY!
+
+Chemdoc77
