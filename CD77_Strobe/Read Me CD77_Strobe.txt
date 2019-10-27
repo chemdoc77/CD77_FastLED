@@ -1,0 +1,32 @@
+Read Me – Strobe by Chemdoc77
+
+This sketch shows my CD77_ Strobe functions that work with CRGBSet arrays.
+
+Here is a video of the sketch on YouTube:
+
+https://youtu.be/xNWF0CNsCCU
+
+NEW:
+
+This sketch contains the code to made CRGBSet arrays along with key variables that automatically divide a strip of any length LEDs into 2, 3, 4, or 6 equal parts as seen in lines 19 thru 85 of:
+
+https://github.com/chemdoc77/CD77_FastLED/blob/master/CD77_Strobe/CD77_Strobe.ino
+
+Functions that use these CRGBSet arrays are located in:
+
+https://github.com/chemdoc77/CD77_FastLED/blob/master/CD77_Strobe/Strobe.h
+
+
+
+
+This sketch was run with on a Teensy 3.2 with a level shifter.  It was compiled using the Arduino IDE 1.8.10 and the Teensyduino 1.46 (for the Teensy 3.2) along with the latest version of FastLED.  
+
+It is powered by a 5 volt power supply with a 4700 mfd 35 volt despiking capacitor.
+
+There is the two resistor protection circuit (see https://forums.adafruit.com/viewtopic.php?f=47&t=50434&p=254414&hilit=ws2812.jpg#p254414 and look for ws2812.jpeg) between the CPU data pin and the ring’s data input.
+
+It was run on a NeoPixel, i.e WS2812B, strip inside a 5 foot PEX pipe.
+
+ENJOY!
+
+Chemdoc77
