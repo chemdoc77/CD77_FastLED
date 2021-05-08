@@ -1,5 +1,5 @@
-#ifndef The_8X8_Matrix_Functions.h
-#define The_8X8_Matrix_Functions.h
+#ifndef The_8X8_Matrix_Functions_h
+#define The_8X8_Matrix_Functions_h
 
 // Functions for loop -----------------------------------------------------------------
 
@@ -100,7 +100,7 @@ void cd77_8X8_box_colorWipe(uint8_t ghue, uint16_t wait) {
 
  
 // Fills the NeoMatrix 8X8 panel - one square at a time
-void cd77_fullallbox_colorWipe(uint8_t ghue, uint16_t wait, uint8_t* boxarray, int x) { // Note: boxarray is the name of the array being used.  x is the number of members in the array being used.
+void cd77_fullallbox_colorWipe(uint8_t ghue, uint16_t wait, uint8_t* boxarray, uint16_t x) { // Note: boxarray is the name of the array being used.  x is the number of members in the array being used.
   
    for(uint16_t i=0; i<x; i++) {
      leds[boxarray[i]]=CHSV(ghue, 255,255);     
