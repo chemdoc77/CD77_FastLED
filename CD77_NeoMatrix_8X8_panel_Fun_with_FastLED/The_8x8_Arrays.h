@@ -1,5 +1,5 @@
-#ifndef The_8x8_Arrays.h
-#define The_8x8_Arrays.h
+#ifndef The_8x8_Arrays_h
+#define The_8x8_Arrays_h
 
 
 // arrays for forward spiral
